@@ -8,13 +8,19 @@ a k means algorithm in Python to analyze breast cancer data and predict the clas
 uniformity of cell shape, marginal adhesion, single epithelial cell size, bare nuclei, bland 
 chromatin, normal nucleoli, and mitoses.
 
-## Data Set
-Data Set
+## [Data Set](https://archive.ics.uci.edu/ml/machine-learning-databases/breast-cancer-wisconsin/breast-cancer-wisconsin.data)
 The data comes from Dr. Wolberg’s Wisconsin Breast Cancer Data.
-The data set consists of 11 columns, which are further explained in the Final Project ipynb file.
+The data set consists of 11 columns:
+* Patient ID (Scn)
+* Clump Thickness (A2)
+* Uniformity of Cell Size (A3)
+* Uniformity of Cell Shape (A4)
+* Marginal Adhesion (A5)
+* Single Epithelial Cell Size (A6)
+* Bare Nuclei (A7)
+* Bland Chromatin (A8)
+* Normal Nucleoli (A9)
+* Mitoses (A10)
+* Class
 
-
-## Phase 1
-Phase 1 of the project consists of obtaining the data and loading it in a data frame, imputing 
-missing values with the mean, and computing mean, median, standard deviation of each of the 
-attributes, as well as drawing histograms for each of the attributes.
+Each of the attribute columns (A2 - A10) have values from 1 to 10, while the class column has a value of either 2 (benign) or 4 (malignant).
